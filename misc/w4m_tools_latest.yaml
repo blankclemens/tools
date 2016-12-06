@@ -1,0 +1,223 @@
+api_key: KEY
+galaxy_instance: GALAXY_INSTANCE
+tools:
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: xcms_xcmsset
+  owner: lecorguille
+  revisions:
+  - latest
+  tool_panel_section_id: preprocessing
+  tool_panel_section_label: Preprocessing
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: xcms_group
+  owner: lecorguille
+  revisions:
+  - latest
+  tool_panel_section_id: preprocessing
+  tool_panel_section_label: Preprocessing
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: xcms_retcor
+  owner: lecorguille
+  revisions:
+  - latest
+  tool_panel_section_id: preprocessing
+  tool_panel_section_label: Preprocessing
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: xcms_fillpeaks
+  owner: lecorguille
+  revisions:
+  - latest
+  tool_panel_section_id: preprocessing
+  tool_panel_section_label: Preprocessing
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: camera_annotate
+  owner: lecorguille
+  revisions:
+  - latest
+  tool_panel_section_id: preprocessing
+  tool_panel_section_label: Preprocessing
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: xcms_summary
+  owner: lecorguille
+  revisions:
+  - latest
+  tool_panel_section_id: preprocessing
+  tool_panel_section_label: Preprocessing
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: camera_combinexsannos
+  owner: mmonsoor
+  revisions:
+  - latest
+  tool_panel_section_id: preprocessing
+  tool_panel_section_label: Preprocessing
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: batchcorrection
+  owner: melpetera
+  revisions:
+  - latest
+  tool_panel_section_id: normalisation
+  tool_panel_section_label: Normalisation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: qualitymetrics
+  owner: ethevenot
+  revisions:
+  - latest
+  tool_panel_section_id: quality_control
+  tool_panel_section_label: Quality Control
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: transformation
+  owner: ethevenot
+  revisions:
+  - latest
+  tool_panel_section_id: statistical_analysis
+  tool_panel_section_label: Statistical Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: anova
+  owner: lecorguille
+  revisions:
+  - latest
+  tool_panel_section_id: statistical_analysis
+  tool_panel_section_label: Statistical Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: heatmap
+  owner: ethevenot
+  revisions:
+  - latest
+  tool_panel_section_id: statistical_analysis
+  tool_panel_section_label: Statistical Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: univariate
+  owner: ethevenot
+  revisions:
+  - latest
+  tool_panel_section_id: statistical_analysis
+  tool_panel_section_label: Statistical Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: multivariate
+  owner: ethevenot
+  revisions:
+  - latest
+  tool_panel_section_id: statistical_analysis
+  tool_panel_section_label: Statistical Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: biosigner
+  owner: ethevenot
+  revisions:
+  - latest
+  tool_panel_section_id: statistical_analysis
+  tool_panel_section_label: Statistical Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: probmetab
+  owner: mmonsoor
+  revisions:
+  - latest
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: lcmsmatching
+  owner: prog
+  revisions:
+  - latest
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: metams_rungc
+  owner: yguitton
+  revisions:
+  - latest
+  tool_panel_section_id: preprocessing
+  tool_panel_section_label: Preprocessing
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: nmr_bucketing
+  owner: marie-tremblay-metatoul
+  revisions:
+  - latest
+  tool_panel_section_id: preprocessing
+  tool_panel_section_label: Preprocessing
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: nmr_normalization
+  owner: marie-tremblay-metatoul
+  revisions:
+  - latest
+  tool_panel_section_id: normalisation
+  tool_panel_section_label: Normalisation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: checkformat
+  owner: ethevenot
+  revisions:
+  - latest
+  tool_panel_section_id: data_handling
+  tool_panel_section_label: Data Handling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- install_repository_dependencies: true
+  install_resolver_dependencies: false
+  install_tool_dependencies: true
+  name: add_input_name_as_column
+  owner: mvdbeek
+  revisions:
+  - latest
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
