@@ -22,6 +22,12 @@ parser.add_argument('--api', action='store_true',
                           as input a Galaxy instance. Provide an API key with \
                           --key if necessary.')
 parser.add_argument('--key', '-k', help="API key to use with --api")
+parser.add_argument('--section_id', dest='section_id', action='store_true',
+                    help='Flag to add tool panel section ID.')
+parser.add_argument('--no-section_id', dest='section_id',
+                    action='store_false',
+                    help='Flag to disable tool panel section ID.')
+parser.set_defaults(section_id=False)
 parser.add_argument('--tool_dep', dest='tool_dep', action='store_true',
                     help='Flag to install tool dependencies.')
 parser.add_argument('--no-tool_dep', dest='tool_dep',
@@ -70,12 +76,6 @@ if args.api:
         for tool in section['elems']:
             if 'tool_shed_repository' in tool:
 
-                if args.latest:
-                    revision = 'latest'
-                else:
-                    revision = \
-                        str(tool['tool_shed_repository']['changeset_revision'])
-
                 if (str(tool['tool_shed_repository']['name']) +
                         str(tool['tool_shed_repository']['changeset_revision'])
                         not in unique_tools):
@@ -87,13 +87,17 @@ if args.api:
                     data['tools'].append({
                         'name': tool['tool_shed_repository']['name'],
                         'owner': tool['tool_shed_repository']['owner'],
-                        'tool_panel_section_id': tool['panel_section_id'],
                         'tool_panel_section_label': tool['panel_section_name'],
                         'tool_shed_url': tool['tool_shed_repository']['tool_shed'],
                         'install_tool_dependencies': args.tool_dep,
                         'install_repository_dependencies': args.repository_dep,
-                        'install_resolver_dependencies': args.resolver_dep,
-                        'revisions': [revision]})
+                        'install_resolver_dependencies': args.resolver_dep})
+                    if args.section_id:
+                        data['tools'][-1]['tool_panel_section_id'] = \
+                            tool['panel_section_id']
+                    if not args.latest:
+                        data['tools'][-1]['revisions'] = \
+                            [str(tool['tool_shed_repository']['changeset_revision'])]
 
 else:
 
@@ -103,28 +107,28 @@ else:
     for section in root.iter('section'):
 
         for i, tool in enumerate(section):
-            if args.latest:
-                revision = 'latest'
-            else:
-                revision = str(tool.find('installed_changeset_revision').text)
 
-            if (tool.find('repository_name').text + str(revision)
+            if (tool.find('repository_name').text +
+                    str(tool.find('installed_changeset_revision').text)
                     not in unique_tools):
 
                 unique_tools.append(tool.find('repository_name').text +
-                                    str(revision))
+                                    str(tool.find('installed_changeset_revision').text))
 
                 data['tools'].append({
                     'name': tool.find('repository_name').text,
                     'owner': tool.find('repository_owner').text,
-                    'tool_panel_section_id':
-                        section.get('name').lower().replace(' ', '_'),
                     'tool_panel_section_label': section.get('name'),
                     'tool_shed_url': tool.find('tool_shed').text,
                     'install_tool_dependencies': args.tool_dep,
                     'install_repository_dependencies': args.repository_dep,
-                    'install_resolver_dependencies': args.resolver_dep,
-                    'revisions': [revision]})
+                    'install_resolver_dependencies': args.resolver_dep})
+                if args.section_id:
+                    data['tools'][-1]['tool_panel_section_id'] = \
+                        section.get('name').lower().replace(' ', '_')
+                if not args.latest:
+                    data['tools'][-1]['revisions'] = \
+                        [str(tool.find('installed_changeset_revision').text)]
 
 with open(args.output, 'w') as outfile:
     yaml.dump(data, outfile, default_flow_style=False)

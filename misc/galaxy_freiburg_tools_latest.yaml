@@ -2,4362 +2,3054 @@ api_key: KEY
 galaxy_instance: GALAXY_INSTANCE
 tools:
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: uniprotxml_downloader
   owner: galaxyp
-  revisions:
-  - latest
-  tool_panel_section_id: getext
   tool_panel_section_label: Get Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: sra_tools
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: getext
   tool_panel_section_label: Get Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: ega_download_streamer
   owner: yhoogstrate
-  revisions:
-  - latest
-  tool_panel_section_id: getext
   tool_panel_section_label: Get Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: dorina
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: getext
   tool_panel_section_label: Get Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: dbbuilder
   owner: galaxyp
-  revisions:
-  - latest
-  tool_panel_section_id: getext
   tool_panel_section_label: Get Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: unipept
   owner: galaxyp
-  revisions:
-  - latest
-  tool_panel_section_id: getext
   tool_panel_section_label: Get Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: prinseq
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: add_value
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: split_file_on_column
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: merge_cols
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: text_processing
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: column_maker
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: coverage
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: regex_replace
   owner: kellrott
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: tables_arithmetic_operations
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: merge
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: intersect
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: flanking_features
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: join
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: cluster
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: get_flanks
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: complement
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: subtract
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: basecoverage
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: subtract_query
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: sed_wrapper
   owner: bjoern-gruening
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: unique
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: dna_filtering
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: textutil
   tool_panel_section_label: Text Manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: column_arrange_by_header
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: filter
   tool_panel_section_label: Filter and Sort
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: seq_filter_by_id
   owner: peterjc
-  revisions:
-  - latest
-  tool_panel_section_id: filter
   tool_panel_section_label: Filter and Sort
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: find_in_reference
   owner: jjohnson
-  revisions:
-  - latest
-  tool_panel_section_id: filter
   tool_panel_section_label: Filter and Sort
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: sample_seqs
   owner: peterjc
-  revisions:
-  - latest
-  tool_panel_section_id: filter
   tool_panel_section_label: Filter and Sort
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: collection_column_join
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: group
   tool_panel_section_label: Join, Subtract and Group
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: datamash_wrapper
   owner: agordon
-  revisions:
-  - latest
-  tool_panel_section_id: group
   tool_panel_section_label: Join, Subtract and Group
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: subtract
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: group
   tool_panel_section_label: Join, Subtract and Group
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: bam_to_scidx
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: convert
   tool_panel_section_label: Convert Formats
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: map_peptides_to_bed
   owner: galaxyp
-  revisions:
-  - latest
-  tool_panel_section_id: convert
   tool_panel_section_label: Convert Formats
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: idconvert
   owner: galaxyp
-  revisions:
-  - latest
-  tool_panel_section_id: convert
   tool_panel_section_label: Convert Formats
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: msconvert_nix
   owner: galaxyp
-  revisions:
-  - latest
-  tool_panel_section_id: convert
   tool_panel_section_label: Convert Formats
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: resize_coordinate_window
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: convert
   tool_panel_section_label: Convert Formats
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: uniprot_rest_interface
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: convert
   tool_panel_section_label: Convert Formats
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: bigwig_to_bedgraph
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: convert
   tool_panel_section_label: Convert Formats
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gffread
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: convert
   tool_panel_section_label: Convert Formats
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: msconvert
   owner: galaxyp
-  revisions:
-  - latest
-  tool_panel_section_id: convert
   tool_panel_section_label: Convert Formats
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: tabular_to_fasta
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: fasta_manipulation
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fasta_to_tabular
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: fasta_manipulation
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastqtofasta
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastq_to_fasta
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: length_and_gc_content
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: features
   tool_panel_section_label: Extract Features
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: extract_genomic_dna
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: fetchSeq
   tool_panel_section_label: Fetch Sequences
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: concat
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: bxops
   tool_panel_section_label: Operate on Genomic Intervals
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: complement
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: bxops
   tool_panel_section_label: Operate on Genomic Intervals
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: cluster
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: bxops
   tool_panel_section_label: Operate on Genomic Intervals
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: basecoverage
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: bxops
   tool_panel_section_label: Operate on Genomic Intervals
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: annotation_profiler
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: bxops
   tool_panel_section_label: Operate on Genomic Intervals
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: numeric_clustering
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: stats
   tool_panel_section_label: Statistics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: t_test_two_samples
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: stats
   tool_panel_section_label: Statistics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: seq_composition
   owner: peterjc
-  revisions:
-  - latest
-  tool_panel_section_id: stats
   tool_panel_section_label: Statistics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: plot_from_lda
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: stats
   tool_panel_section_label: Statistics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: mine
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: stats
   tool_panel_section_label: Statistics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: lda_analysis
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: stats
   tool_panel_section_label: Statistics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: generate_pc_lda_matrix
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: stats
   tool_panel_section_label: Statistics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: count_gff_features
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: stats
   tool_panel_section_label: Statistics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: correlation
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: stats
   tool_panel_section_label: Statistics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fasta_nucleotide_color_plot
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: plots
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: jbrowse
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: plots
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: venn_list
   owner: peterjc
-  revisions:
-  - latest
-  tool_panel_section_id: plots
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: mummer
   owner: peterjc
-  revisions:
-  - latest
-  tool_panel_section_id: plots
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: karyotype_plot
   owner: guru-ananda
-  revisions:
-  - latest
-  tool_panel_section_id: plots
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: covenntree
   owner: steffen
-  revisions:
-  - latest
-  tool_panel_section_id: plots
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: testtoolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: ucsc_custom_track
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: plots
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: scatterplot
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: plots
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: histogram
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: plots
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gmaj
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: plots
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: xy_plot
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: plots
   tool_panel_section_label: Graph/Display Data
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: featurecounter
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: regVar
   tool_panel_section_label: Regional Variation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: indels_3way
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: regVar
   tool_panel_section_label: Regional Variation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: draw_stacked_barplots
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: regVar
   tool_panel_section_label: Regional Variation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: delete_overlapping_indels
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: regVar
   tool_panel_section_label: Regional Variation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: compute_motifs_frequency
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: regVar
   tool_panel_section_label: Regional Variation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: compute_motif_frequencies_for_all_motifs
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: regVar
   tool_panel_section_label: Regional Variation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: categorize_elements_satisfying_criteria
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: regVar
   tool_panel_section_label: Regional Variation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: best_regression_subsets
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: multReg
   tool_panel_section_label: Multiple regression
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: principal_component_analysis
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: multVar
   tool_panel_section_label: Multivariate Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: kernel_principal_component_analysis
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: multVar
   tool_panel_section_label: Multivariate Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: kernel_canonical_correlation_analysis
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: multVar
   tool_panel_section_label: Multivariate Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: canonical_correlation_analysis
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: multVar
   tool_panel_section_label: Multivariate Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: mutate_snp_codon
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: hyphy
   tool_panel_section_label: Evolution
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: meme_meme
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: motifs
   tool_panel_section_label: Motif Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: meme_fimo
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: motifs
   tool_panel_section_label: Motif Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: weblogo3
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: motifs
   tool_panel_section_label: Motif Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: muscle
   owner: crs4
-  revisions:
-  - latest
-  tool_panel_section_id: clustal
   tool_panel_section_label: Multiple Alignments
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: mafft
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: clustal
   tool_panel_section_label: Multiple Alignments
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: hammock
   owner: hammock
-  revisions:
-  - latest
-  tool_panel_section_id: clustal
   tool_panel_section_label: Multiple Alignments
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: compalignp
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: clustal
   tool_panel_section_label: Multiple Alignments
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: mafft
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: clustal
   tool_panel_section_label: Multiple Alignments
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: cdhit
   owner: jjohnson
-  revisions:
-  - latest
-  tool_panel_section_id: clustal
   tool_panel_section_label: Multiple Alignments
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: clustalw
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: clustal
   tool_panel_section_label: Multiple Alignments
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vegan_diversity
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: tax_manipulation
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vegan_fisher_alpha
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: tax_manipulation
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vegan_rarefaction
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: tax_manipulation
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vsearch
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: tax_manipulation
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: khmer_filter_abundance
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: tax_manipulation
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: khmer_filter_below_abundance_cutoff
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: tax_manipulation
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: khmer_extract_partitions
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: tax_manipulation
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: khmer_abundance_distribution
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: tax_manipulation
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: khmer_count_median
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: tax_manipulation
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: khmer_partition
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: tax_manipulation
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: khmer_normalize_by_median
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: tax_manipulation
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: khmer_abundance_distribution_single
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: tax_manipulation
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: t2t_report
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: tax_manipulation
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: t2ps
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: tax_manipulation
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: poisson2test
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: tax_manipulation
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: lca_wrapper
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: tax_manipulation
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gi2taxonomy
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: tax_manipulation
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: find_diag_hits
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: tax_manipulation
   tool_panel_section_label: Metagenomic analyses
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fasta_merge_files_and_filter_unique_sequences
   owner: galaxyp
-  revisions:
-  - latest
-  tool_panel_section_id: fasta_manipulation
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: lighter
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: fasta_manipulation
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: sickle
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: fasta_manipulation
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastq_paired_end_interlacer
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: fasta_manipulation
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastq_paired_end_joiner
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: fasta_manipulation
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fasta_compute_length
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: fasta_manipulation
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastq_join
   owner: lparsons
-  revisions:
-  - latest
-  tool_panel_section_id: fasta_manipulation
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: splitfasta
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: fasta_manipulation
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: je_clip
   owner: gbcs-embl-heidelberg
-  revisions:
-  - latest
-  tool_panel_section_id: fasta_manipulation
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: je_demultiplex
   owner: gbcs-embl-heidelberg
-  revisions:
-  - latest
-  tool_panel_section_id: fasta_manipulation
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: je_demultiplex_illu
   owner: gbcs-embl-heidelberg
-  revisions:
-  - latest
-  tool_panel_section_id: fasta_manipulation
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: je_markdupes
   owner: gbcs-embl-heidelberg
-  revisions:
-  - latest
-  tool_panel_section_id: fasta_manipulation
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: align_back_trans
   owner: peterjc
-  revisions:
-  - latest
-  tool_panel_section_id: fasta_manipulation
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: seq_filter_by_mapping
   owner: peterjc
-  revisions:
-  - latest
-  tool_panel_section_id: fasta_manipulation
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: pear
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: fasta_manipulation
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastx_artifacts_filter
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastx_barcode_splitter
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastx_clipper
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastx_nucleotides_distribution
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fasta_filter_by_length
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: fasta_manipulation
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fasta_concatenate_by_species
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: fasta_manipulation
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastx_collapser
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fasta_nucleotide_changer
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: fasta_manipulation
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fasta_formatter
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: fasta_manipulation
   tool_panel_section_label: FASTA/FASTQ manipulation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: trim_galore
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastqc
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: trimmomatic
   owner: pjbriggs
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: cutadapt
   owner: lparsons
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastq_paired_end_joiner
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: short_reads_trim_seq
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: short_reads_figure_score
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: tabular_to_fastq
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastq_trimmer_by_quality
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastq_trimmer
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastq_to_tabular
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastq_stats
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastq_paired_end_splitter
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastq_paired_end_interlacer
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastq_paired_end_deinterlacer
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastq_masker_by_quality
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastq_manipulation
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastq_groomer
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastq_filter
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastq_combiner
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastx_trimmer
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastx_reverse_complement
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastx_renamer
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastx_quality_statistics
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastq_quality_filter
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastq_quality_converter
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: fastq_quality_boxplot
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_QC
   tool_panel_section_label: 'NGS: QC and manipulation'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: mira_assembler
   owner: peterjc
-  revisions:
-  - latest
-  tool_panel_section_id: ngs_assembly
   tool_panel_section_label: 'NGS: Assembly'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: spades
   owner: lionelguy
-  revisions:
-  - latest
-  tool_panel_section_id: ngs_assembly
   tool_panel_section_label: 'NGS: Assembly'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: sopra
   owner: crs4
-  revisions:
-  - latest
-  tool_panel_section_id: ngs_assembly
   tool_panel_section_label: 'NGS: Assembly'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: ssake
   owner: crs4
-  revisions:
-  - latest
-  tool_panel_section_id: ngs_assembly
   tool_panel_section_label: 'NGS: Assembly'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: crispr_recognition_tool
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: ngs_assembly
   tool_panel_section_label: 'NGS: Assembly'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: minced
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: ngs_assembly
   tool_panel_section_label: 'NGS: Assembly'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: edena
   owner: crs4
-  revisions:
-  - latest
-  tool_panel_section_id: ngs_assembly
   tool_panel_section_label: 'NGS: Assembly'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: tophat2
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: solexa_tools
   tool_panel_section_label: 'NGS: Mapping'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: bowtie2
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: solexa_tools
   tool_panel_section_label: 'NGS: Mapping'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: rgrnastar
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: solexa_tools
   tool_panel_section_label: 'NGS: Mapping'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: hisat2
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: solexa_tools
   tool_panel_section_label: 'NGS: Mapping'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: bowtie_wrappers
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: solexa_tools
   tool_panel_section_label: 'NGS: Mapping'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: bowtie_color_wrappers
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: solexa_tools
   tool_panel_section_label: 'NGS: Mapping'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: bwa_mem
   owner: crs4
-  revisions:
-  - latest
-  tool_panel_section_id: solexa_tools
   tool_panel_section_label: 'NGS: Mapping'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: bwa_wrappers
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: solexa_tools
   tool_panel_section_label: 'NGS: Mapping'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: megablast_xml_parser
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: solexa_tools
   tool_panel_section_label: 'NGS: Mapping'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: megablast_wrapper
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: solexa_tools
   tool_panel_section_label: 'NGS: Mapping'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: lastz_paired_reads
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: solexa_tools
   tool_panel_section_label: 'NGS: Mapping'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: lastz
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: solexa_tools
   tool_panel_section_label: 'NGS: Mapping'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: sailfish
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: deseq2
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: salmon
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: featurecounts
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: circexplorer
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: transdecoder
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: trinity
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vienna_rna
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: rnacommender
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: blockbuster
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: tophat_fusion_post
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: stringtie
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: dexseq
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: cuffdiff
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: htseq_count
   owner: lparsons
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: kinwalker
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: antarna
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: rnabob
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: structurefold
   owner: tyty
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: rnashapes
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: rnacode
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: rnaz
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: cummerbund_to_tabular
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: cummerbund
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: blockclust
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: segemehl
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: infernal
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: cuffmerge
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: cuffquant
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: cuffnorm
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: cuffcompare
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: cufflinks
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: mirdeep2
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: mirdeep2_quantifier
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: mirdeep2_mapper
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: rseqc
   owner: nilesh
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: rsem
   owner: jjohnson
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: filter_transcripts_via_tracking
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: express
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: cufflinks
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: cuffcompare
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs-rna-tools
   tool_panel_section_label: 'NGS: RNA Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: macs2
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: peak_calling
   tool_panel_section_label: 'NGS: Peak Calling'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: diffbind
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: peak_calling
   tool_panel_section_label: 'NGS: Peak Calling'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: piranha
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: peak_calling
   tool_panel_section_label: 'NGS: Peak Calling'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: macs
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: peak_calling
   tool_panel_section_label: 'NGS: Peak Calling'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: sicer
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: peak_calling
   tool_panel_section_label: 'NGS: Peak Calling'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: ccat
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: peak_calling
   tool_panel_section_label: 'NGS: Peak Calling'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: pileometh
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: dna-methylation
   tool_panel_section_label: DNA methylation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: bwameth
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: dna-methylation
   tool_panel_section_label: DNA methylation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: metilene
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: dna-methylation
   tool_panel_section_label: DNA methylation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: rnbeads
   owner: pavlo-lutsik
-  revisions:
-  - latest
-  tool_panel_section_id: dna-methylation
   tool_panel_section_label: DNA methylation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcf_filter
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: dna-methylation
   tool_panel_section_label: DNA methylation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: varscan_version_2
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: rgmodel
   tool_panel_section_label: 'SNP/WGA: Statistical Models'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: freebayes
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: hgv
   tool_panel_section_label: Phenotype Association
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcf2pgsnp
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: hgv
   tool_panel_section_label: Phenotype Association
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: snpfreq
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: hgv
   tool_panel_section_label: Phenotype Association
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: hgv_hilbertvis
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: hgv
   tool_panel_section_label: Phenotype Association
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: hgv_fundo
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: hgv
   tool_panel_section_label: Phenotype Association
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: divide_pg_snp
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: hgv
   tool_panel_section_label: Phenotype Association
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: ctd_batch
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: hgv
   tool_panel_section_label: Phenotype Association
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: goseq
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: kobas
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: prokka
   owner: crs4
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: nucleosome_prediction
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: sortmerna
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: snpsift_genesets
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: miranda
   owner: tgac
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: hammock
   owner: hammock
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: segmentation_fold
   owner: yhoogstrate
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: dotknot
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: transtermhp
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: blast2go
   owner: peterjc
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: augustus
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: hmmer3
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: find_subsequences
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gotohscan
   owner: rnateam
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: snpsift_dbnsfp
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: snpsift
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: snpsift_dbnsfp_generic
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: snpeff
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: tmhmm_and_signalp
   owner: peterjc
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: trna_prediction
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: antismash
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: snpeff_to_peptides
   owner: jjohnson
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: snpeff_cds_report
   owner: jjohnson
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: snpeff
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: interproscan5
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: glimmer3
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: dgidb_annotator
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: tmhmm_and_signalp
   owner: peterjc
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: dgidb_annotator
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: peptideshaker
   owner: galaxyp
-  revisions:
-  - latest
-  tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: hardklor
   owner: galaxyp
-  revisions:
-  - latest
-  tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: morpheus
   owner: galaxyp
-  revisions:
-  - latest
-  tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: protease_prediction
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
   tool_shed_url: testtoolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: msgfplus
   owner: galaxyp
-  revisions:
-  - latest
-  tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: decoyfasta
   owner: galaxyp
-  revisions:
-  - latest
-  tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: autodock_vina_prepare_ligand
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: autodock_vina
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: autodock_vina_prepare_receptor
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: openmg
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: ctb_machine_learning
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: chemical_data_sources
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: silicos_it
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: confab
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: simsearch
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: opsin
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: natural_product_likeness
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: chemfp
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: openbabel
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: rdkit
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: osra
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: hifive
   owner: sauria
-  revisions:
-  - latest
-  tool_panel_section_id: bg-test-tools
   tool_panel_section_label: Test Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: bedtools
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: bed_tools
   tool_panel_section_label: BED tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: bedtools
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: bed_tools
   tool_panel_section_label: BED tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: translate_bed_sequences
   owner: jjohnson
-  revisions:
-  - latest
-  tool_panel_section_id: bed_tools
   tool_panel_section_label: BED tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: filter_bed_on_splice_junctions
   owner: jjohnson
-  revisions:
-  - latest
-  tool_panel_section_id: bed_tools
   tool_panel_section_label: BED tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: jamm
   owner: messersc
-  revisions:
-  - latest
-  tool_panel_section_id: peak_calling_deprecated
   tool_panel_section_label: 'NGS: Peak Calling'
   tool_shed_url: testtoolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: diffbind
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: peak_calling_deprecated
   tool_panel_section_label: 'NGS: Peak Calling'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: picard
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs:_picard
   tool_panel_section_label: 'NGS: Picard'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: picard
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: ngs:_picard
   tool_panel_section_label: 'NGS: Picard'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: emboss_5
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: emboss_tools
   tool_panel_section_label: EMBOSS Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: kraken_taxonomy_report
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: ncbi_blast_plus
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: kraken2tax
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: kraken
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: blast_rbh
   owner: peterjc
-  revisions:
-  - latest
-  tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: kraken_report
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: taxonomy_krona_chart
   owner: crs4
-  revisions:
-  - latest
-  tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: kraken_filter
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: kraken_translate
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: sample_seqs
   owner: peterjc
-  revisions:
-  - latest
-  tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: diamond
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: blastxml_to_top_descr
   owner: peterjc
-  revisions:
-  - latest
-  tool_panel_section_id: ncbi_blast
   tool_panel_section_label: NCBI Blast
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: allele_counts
   owner: nick
-  revisions:
-  - latest
-  tool_panel_section_id: indel_analysis
   tool_panel_section_label: 'NGS: Indel Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: naive_variant_caller
   owner: blankenberg
-  revisions:
-  - latest
-  tool_panel_section_id: indel_analysis
   tool_panel_section_label: 'NGS: Indel Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: bamleftalign
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: indel_analysis
   tool_panel_section_label: 'NGS: Indel Analysis'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcfcheck
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcfaddinfo
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcf2tsv
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcfleftalign
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcfcombine
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcfprimers
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcfsort
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcfhethom
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcfrandomsample
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcfbedintersect
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcfgenotypes
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcffixup
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcffilter
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcfgeno2haplo
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcfallelicprimitives
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcfbreakcreatemulti
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcfvcfintersect
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcfannotate
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcfcommonsamples
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcfflatten
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcfdistance
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcfannotategenotypes
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcfselectsamples
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: bcftools_call
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcftools_merge
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcftools_isec
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vt_variant_tools
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: bcftools
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcftools_compare
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcftools_annotate
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcftools_slice
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: vcftools_subset
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: vcf_tools
   tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gatk2
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: gatk
   tool_panel_section_label: 'NGS: GATK Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: deeptools_plot_fingerprint
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: bioinf_mpi_deeptools
   tool_panel_section_label: deepTools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: deeptools_plot_coverage
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: bioinf_mpi_deeptools
   tool_panel_section_label: deepTools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: deeptools_plot_correlation
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: bioinf_mpi_deeptools
   tool_panel_section_label: deepTools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: deeptools_plot_profile
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: bioinf_mpi_deeptools
   tool_panel_section_label: deepTools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: deeptools_multi_bigwig_summary
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: bioinf_mpi_deeptools
   tool_panel_section_label: deepTools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: deeptools_compute_gc_bias
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: bioinf_mpi_deeptools
   tool_panel_section_label: deepTools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: deeptools_compute_matrix
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: bioinf_mpi_deeptools
   tool_panel_section_label: deepTools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: deeptools_plot_pca
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: bioinf_mpi_deeptools
   tool_panel_section_label: deepTools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: deeptools_multi_bam_summary
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: bioinf_mpi_deeptools
   tool_panel_section_label: deepTools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: deeptools_correct_gc_bias
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: bioinf_mpi_deeptools
   tool_panel_section_label: deepTools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: deeptools_plot_heatmap
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: bioinf_mpi_deeptools
   tool_panel_section_label: deepTools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: deeptools_bigwig_compare
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: bioinf_mpi_deeptools
   tool_panel_section_label: deepTools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: deeptools_bam_pe_fragmentsize
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: bioinf_mpi_deeptools
   tool_panel_section_label: deepTools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: deeptools_bam_coverage
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: bioinf_mpi_deeptools
   tool_panel_section_label: deepTools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: deeptools_bam_compare
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: bioinf_mpi_deeptools
   tool_panel_section_label: deepTools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: tag_pileup_frequency
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: sam_to_bam
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: pileup_interval
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: bamtools
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: bamtools_split
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: ngsutils_bam_filter
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: bamtools_filter
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: sam_merge
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: bamhash
   owner: bgruening
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: samtools_bedcov
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: samtools_sort
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: samtools_rmdup
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: samtools_idxstats
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: samtools_slice_bam
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: samtools_mpileup
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: samtools_calmd
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: samtools_flagstat
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: samtools_reheader
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: samtools_split
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: samtools_stats
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: bam_to_sam
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: samtools_sort
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: sam_pileup
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: samtools_filter
   owner: jjohnson
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: samtool_filter2
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: samtools_phase
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: sam_bitwise_flag_filter
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: sam2interval
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: pileup_parser
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: samtools
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_db_info
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_windower
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_burden
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_gene_wise
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_stats
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_mendel_errors
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_amend
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_pathways
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_dump
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_region
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_actionable_mutations
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_lof_sieve
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_query
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_fusions
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_load
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_de_novo
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_annotate
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_recessive_and_dominant
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_roh
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_set_somatic
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_qc
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_comp_hets
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: gemini_interactions
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: NGS_GEMINI
   tool_panel_section_label: 'NGS: GEMINI'
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: genome_diversity
   owner: miller-lab
-  revisions:
-  - latest
-  tool_panel_section_id: genome_diversity
   tool_panel_section_label: Genome Diversity
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: dwt_var_perfeature
   owner: devteam
-  revisions:
-  - latest
-  tool_panel_section_id: dwt
   tool_panel_section_label: Wavelet Analysis
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: stacks_sstacks
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: rad_seq
   tool_panel_section_label: RAD-seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: stacks_genotypes
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: rad_seq
   tool_panel_section_label: RAD-seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: stacks_denovomap
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: rad_seq
   tool_panel_section_label: RAD-seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: stacks_ustacks
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: rad_seq
   tool_panel_section_label: RAD-seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: stacks_assembleperead
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: rad_seq
   tool_panel_section_label: RAD-seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: stacks_procrad
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: rad_seq
   tool_panel_section_label: RAD-seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: stacks_refmap
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: rad_seq
   tool_panel_section_label: RAD-seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: stacks_cstacks
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: rad_seq
   tool_panel_section_label: RAD-seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: stacks_rxstacks
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: rad_seq
   tool_panel_section_label: RAD-seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: stacks_pstacks
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: rad_seq
   tool_panel_section_label: RAD-seq
   tool_shed_url: toolshed.g2.bx.psu.edu
 - install_repository_dependencies: true
-  install_resolver_dependencies: false
-  install_tool_dependencies: true
+  install_resolver_dependencies: true
+  install_tool_dependencies: false
   name: stacks_populations
   owner: iuc
-  revisions:
-  - latest
-  tool_panel_section_id: rad_seq
   tool_panel_section_label: RAD-seq
   tool_shed_url: toolshed.g2.bx.psu.edu
