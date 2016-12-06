@@ -70,6 +70,12 @@ if args.api:
         for tool in section['elems']:
             if 'tool_shed_repository' in tool:
 
+                if args.latest:
+                    revision = 'latest'
+                else:
+                    revision = \
+                        str(tool['tool_shed_repository']['changeset_revision'])
+
                 if (str(tool['tool_shed_repository']['name']) +
                         str(tool['tool_shed_repository']['changeset_revision'])
                         not in unique_tools):
@@ -87,8 +93,7 @@ if args.api:
                         'install_tool_dependencies': args.tool_dep,
                         'install_repository_dependencies': args.repository_dep,
                         'install_resolver_dependencies': args.resolver_dep,
-                        'revisions':
-                            [tool['tool_shed_repository']['changeset_revision']]})
+                        'revisions': [revision]})
 
 else:
 
