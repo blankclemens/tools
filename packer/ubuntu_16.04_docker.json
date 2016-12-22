@@ -18,7 +18,7 @@
         },
         {
             "type": "ansible-local",
-            "playbook_file": "roles/site.yml"
+            "playbook_file": "playbooks/install-docker.yml"
         }
     ]
 }
