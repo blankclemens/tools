@@ -1,0 +1,25 @@
+{
+  "builders":[{
+  "type": "openstack",
+  "ssh_username": "ubuntu",
+  "image_name": "ubuntu-16.04-with-docker",
+  "source_image": "43687a4a-deb2-402b-a3ba-cd9054b77598",
+  "flavor": "m1.tiny"
+}
+],
+    "provisioners":[
+        {
+            "type": "shell",
+            "execute_command": "sudo -S sh -c '{{ .Vars }} {{ .Path }}'",
+            "inline": [
+                "apt-get -y update",
+                "apt-get install -y ansible"
+            ]
+        },
+        {
+            "type": "ansible-local",
+            "playbook_file": "roles/site.yml"
+        }
+    ]
+}
+
