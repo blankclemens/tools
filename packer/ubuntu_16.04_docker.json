@@ -10,10 +10,9 @@
     "provisioners":[
         {
             "type": "shell",
-            "execute_command": "sudo -S sh -c '{{ .Vars }} {{ .Path }}'",
             "inline": [
-                "apt-get -y update",
-                "apt-get install -y ansible"
+                "sudo apt-get -y update",
+                "sudo apt-get install -y ansible"
             ]
         },
         {
