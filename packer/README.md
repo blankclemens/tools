@@ -7,7 +7,7 @@ Packer with BW-Cloud
 
 You can either set the credentials direcetly in the Packer file or by exporting them as environment variables. The latter is made easy with the OpenStack RC file available in the OpenStack Dashboard and is recommended.
 
-###OpenStack RC file
+###Option 1: OpenStack RC file
 
 1. Log in to the dashboard and select the project for which you want to download the OpenStack RC file.
 
@@ -21,7 +21,7 @@ You can either set the credentials direcetly in the Packer file or by exporting 
     $ . YOUR_CUSTOM_OPENSTACK_RC_FILE
     ```
 
-###Variabels in Packer file
+###Option 2: Variabels in Packer file
 
 Alternatively you can set the following variables in your Packer file. You can extract this information from your OpenStack RC file. Add the following lines to your builder block. The capital worlds refere to the export variable in the OpenStack RC file:
 ```json
