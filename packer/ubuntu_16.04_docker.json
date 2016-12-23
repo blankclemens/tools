@@ -4,7 +4,8 @@
   "ssh_username": "ubuntu",
   "image_name": "ubuntu-16.04-with-docker",
   "source_image": "43687a4a-deb2-402b-a3ba-cd9054b77598",
-  "flavor": "m1.tiny"
+  "flavor": "m1.tiny",
+  "security_groups": ["default"]
 }
 ],
     "provisioners":[
