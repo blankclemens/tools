@@ -1,13 +1,13 @@
 Packer with BW-Cloud
 ====================
 
-#Usage
+## Usage
 
-##Set credentials
+### Set credentials
 
 You can either set the credentials direcetly in the Packer file or by exporting them as environment variables. The latter is made easy with the OpenStack RC file available in the OpenStack Dashboard and is recommended.
 
-###Option 1: OpenStack RC file
+#### Option 1: OpenStack RC file
 
 1. Log in to the dashboard and select the project for which you want to download the OpenStack RC file.
 
@@ -59,7 +59,7 @@ You can either set the credentials direcetly in the Packer file or by exporting 
     $ . YOUR_CUSTOM_OPENSTACK_RC_FILE
     ```
 
-###Option 2: Variabels in Packer file
+#### Option 2: Variabels in Packer file
 
 Alternatively you can set the following variables in your Packer file. You can extract this information from your OpenStack RC file. Add the following lines to your builder block. The capital worlds refere to the export variable in the OpenStack RC file:
 ```json
@@ -74,7 +74,7 @@ Alternatively you can set the following variables in your Packer file. You can e
 }]
 ```
 
-##Create the OpenStack image with Packer
+### Create the OpenStack image with Packer
 
 Packer needs to connect to the image via SSH to run the provisioners. Therefore, a security rule is needed which allows access to Port 22. This might be already included in the default security rule, but if not make sure to add the proper rule in a security group on your OpenStack dashboard and enter this group in `security_groups`:
 
@@ -94,7 +94,7 @@ packer build ubuntu_16.04_docker.json
     
 Relax. Installing all requirements will take some time, at the end there should be a new image at the open stack instance.
 
-##Run Docker images on instance startup
+### Run Docker images on instance startup
 
 With the created image, docker runs out of the box. With OpenStack, you can also run a docker container when you launch the instance. E.g. to automatically launch a Galaxy Instance from the [Docker Galaxy Stable](https://github.com/bgruening/docker-galaxy-stable) container, switch to the `Post-Creation` tab in the`Launch Instance` settings and enter as `Direct Input`:
 
